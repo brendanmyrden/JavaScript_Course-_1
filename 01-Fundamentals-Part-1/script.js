@@ -1,12 +1,44 @@
-// Fundamentals
+// Operators
 
-// Hello World
+// Operator Precedence : PEDMAS : Parantheses, Exponents, Division, Multiplication, Addition, Subtraction
 
-let hello = "Hello World, Here I am";
+// Mathematical Operators
 
-if (hello === "Hello World, Here I am") alert("You are here on the Earth!");
+const now = 2050;
+const ageBrendan = now - 1994;
+const ageSarai = now - 1941;
 
-// Math
+console.log(now, ageBrendan, ageSarai);
+console.log(ageBrendan * 2, ageBrendan / 2, 2 ** 3);
 
-20 + 40;
-console.log(40 + 20);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+
+const firstName = "Brent";
+const lastName = "Shivers";
+
+console.log(firstName + " " + lastName);
+
+// Assignment Operators
+
+let x = 10 + 5;
+// the = and the + are both operators
+
+x += 10; // x = x + 10
+console.log(x);
+
+x *= 4; // x = x * 4
+console.log(x);
+
+x++; // x = x + 1
+x--; // x = x - 1
+
+console.log(x);
+
+// Comparison Operators
+
+console.log(ageBrendan > ageSarai); // Boolean response : >, <, >=, <=
+console.log(ageSarai >= 100);
+
+const isFullAge = ageSarai >= 100;
+
+console.log(now - 1994 > now - 1941);
