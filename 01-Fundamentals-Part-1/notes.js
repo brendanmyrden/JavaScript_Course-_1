@@ -202,3 +202,32 @@ console.log(y, z);
 
 const averageAge = (ageBrendan + ageSarai) / 2;
 console.log(ageBrendan, ageSarai, averageAge);
+
+// Strings, Template Literals
+
+const myFirstName = `Brendan`;
+const job = "coder";
+const currentYear = 2025;
+const birthYear = 1994;
+
+const brendanMyrden =
+  "I'm " +
+  myFirstName +
+  ", a " +
+  (currentYear - birthYear) +
+  " year old " +
+  job +
+  ".";
+console.log(brendanMyrden);
+
+const brendanNew = `I'm ${myFirstName}, a ${
+  currentYear - birthYear
+} year old ${job}.`;
+console.log(brendanNew);
+
+console.log(`This is an example of a regular string.`);
+
+console.log(`String
+with
+multiple
+lines`);
