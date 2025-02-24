@@ -189,3 +189,16 @@ console.log(ageSarai >= 100);
 const isFullAge = ageSarai >= 100;
 
 console.log(now - 1994 > now - 1941);
+
+// Operation Precedence
+
+console.log(25 - 10 - 5);
+
+let y, z;
+
+y = z = 25 - 10 - 5; // x = y = 10
+
+console.log(y, z);
+
+const averageAge = (ageBrendan + ageSarai) / 2;
+console.log(ageBrendan, ageSarai, averageAge);
